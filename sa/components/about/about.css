@@ -1,0 +1,64 @@
+.about-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    margin-bottom: 1.5rem;
+    /* タイトルと本文の間にスペース */
+}
+
+.about-dis {
+    background-color: rgba(255, 255, 255, 0.334);
+}
+
+/* .about-me {
+    
+} */
+
+p {
+    font-size: 80%;
+    text-align: center;
+}
+
+.url{
+    padding: 1rem;
+    
+    
+}
+.link{
+    color: #0095ff;
+}
+
+#name {
+    font-size: 30px;
+    padding: 0.5rem;
+}
+
+.about-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /* コンテンツが追加されても伸びる　maxは伸びずにこのコンテンツに従う */
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    /* 中央を切り抜いて表示 */
+    border-radius: 50%;
+    padding: 1rem 1rem;
+
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(59, 55, 55, 0.18);
+    padding: 1rem;
+    border-radius: 8px;
+    max-width: 710px;
+}
