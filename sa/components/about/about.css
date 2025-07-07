@@ -8,7 +8,7 @@
 }
 
 .about-dis {
-    background-color: rgba(255, 255, 255, 0.334);
+    background-color: rgba(255, 255, 255, 0.75);
 }
 
 /* .about-me {
@@ -57,7 +57,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(59, 55, 55, 0.18);
+    background-color: rgba(161, 160, 160, 0.675);
     padding: 1rem;
     border-radius: 8px;
     max-width: 710px;

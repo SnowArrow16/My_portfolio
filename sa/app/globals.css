@@ -3,7 +3,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  /* --background-image: url(''); */
+  --background-image: url('/snow.jpg');
 }
 
 /* @theme inline {
@@ -30,6 +30,10 @@ body {
   height: 100vh;
   font-size: 18px;
   font-family: 'Playfair Display', serif;
+  background-attachment: fixed; /* ← これを追加！ */
+  background-size: cover;       /* 画面いっぱいに表示 */
+  background-repeat: no-repeat; /* 繰り返しを防ぐ */
+  background-position: center;  /* 中央に配置 */
 }
 
 html {

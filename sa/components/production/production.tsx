@@ -15,17 +15,17 @@ const Production = () => {
     return (
         <>
             <section id="production" className='protection_dis'>
-                <FadeInSection>
-                <div className='protection_contents'>
-                    <h1 className='protection_title'>Protection</h1>
-                    <div className='protection'>
-                        {project_list.map(({ component: Component, name }, index) => (
-                            <div className='production_list' key={index} title={name}>
-                                <Component />
-                            </div>
-                        ))}
+                <FadeInSection delay={0.3}>
+                    <div className='protection_contents'>
+                        <h1 className='protection_title'>Protection</h1>
+                        <div className='protection'>
+                            {project_list.map(({ component: Component, name }, index) => (
+                                <div className='production_list' key={index} title={name}>
+                                    <Component />
+                                </div>
+                            ))}
+                        </div>
                     </div>
-                </div>
                 </FadeInSection>
             </section>
         </>

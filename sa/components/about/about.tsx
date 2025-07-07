@@ -7,7 +7,7 @@ const About = () => {
     <>
       <section id="about" className='about-dis'>
         <div>
-          <FadeInSection>
+          <FadeInSection delay={0.3}>
             <div className='about-contents'>
               <h1 className='about-title'>About</h1>
               <div className='about'>

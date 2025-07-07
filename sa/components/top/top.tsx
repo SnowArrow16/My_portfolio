@@ -7,10 +7,10 @@ import Image from 'next/image'
 
 const Top = () => {
 
-    const scrollToSection = (id:string) => {
+    const scrollToSection = (id: string) => {
         const element = document.getElementById(id);
-        if(element){
-            element.scrollIntoView({behavior: 'smooth'});
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
         }
     }
 
@@ -18,19 +18,25 @@ const Top = () => {
         <>
             <section id="home" className='dis'>
                 <div className='title'>
-                    <FadeInSection>
-                        <h1 id='title'>SnowArrow</h1>
-                    </FadeInSection>
+
+                    <div className='tit'>
+                        <FadeInSection>
+                            <h1 id='title1'>Welcome To</h1>
+                        </FadeInSection>
+                        <FadeInSection delay={0.3}>
+                            <h1 id='title2'>SnowArrow's Portfolio</h1>
+                        </FadeInSection>
+                    </div>
                     <Image
-                            src="/under.svg"
-                            alt="SA-under-icon"
-                            width={50}
-                            height={50}
-                            className='sa-under-icon'
-                            onClick={()=>scrollToSection('about')}
-                        />
+                        src="/under.svg"
+                        alt="SA-under-icon"
+                        width={50}
+                        height={50}
+                        className='sa-under-icon'
+                        onClick={() => scrollToSection('about')}
+                    />
                 </div>
-                
+
             </section>
         </>
     )

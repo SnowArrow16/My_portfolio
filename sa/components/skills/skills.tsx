@@ -38,7 +38,7 @@ const Skills = () => {
         <>
             <section id="skills" className='skill-dis'>
                 <div>
-                    <FadeInSection>
+                    <FadeInSection delay={0.3}>
                         <div className='skill-contents'>
                             <h1 className='skill-title'>Skills</h1>
                             <div className='skill-list'>
